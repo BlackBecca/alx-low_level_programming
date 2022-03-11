@@ -2,7 +2,7 @@
 
 /**
  * main - Prints "and that piece of art is useful" - Dora Korpar, 2015-10-19",
- followed wed by a new line, to standard error.
+ * followed wed by a new line, to standard error.
  *
  * Return: Always 1.
  */
