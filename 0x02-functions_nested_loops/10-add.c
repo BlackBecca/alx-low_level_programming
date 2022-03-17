@@ -1,18 +1,12 @@
-/*
- * File: 10-add.c
- * Auth: Brennan D Baraban
- */
-
-#include "holberton.h"
-
+#include "main.h"
 /**
- * add - Adds two integers.
- * @num1: The first integer to be added.
- * @num2: The second integer to be added.
- *
- * Return: The result of the addition.
+ *add- sums two integers
+ *@x:first operand
+ *@y:second operand
+ * Return:result of addition
  */
-int add(int num1, int num2)
+
+int add(int x, int y)
 {
-	return (num1 + num2);
+return (x + y);
 }

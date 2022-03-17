@@ -1,19 +1,18 @@
-/*
- * File: 1-alphabet.c
- * Auth: Brennan D Baraban
- */
-
-#include "holberton.h"
+#include "main.h"
 
 /**
- * print_alphabet - prints the alphabet in lowercase, followed by a new line.
+ * print_alphabet - prints alphabet in lowercase with new line
+ *
  */
+
 void print_alphabet(void)
 {
-	char letter;
+char alphabets;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		_putchar(letter);
+for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
+{
+_putchar(alphabets);
+}
+_putchar('\n');
 
-	_putchar('\n');
 }

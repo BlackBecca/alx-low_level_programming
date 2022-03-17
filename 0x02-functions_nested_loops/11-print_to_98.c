@@ -1,29 +1,27 @@
-/*
- * File: 11-print_to_98.c
- * Auth: Brennan D Baraban
- */
-
 #include <stdio.h>
-
+#include "main.h"
 /**
- * print_to_98 - Prints all natural numbers from input to 98,
- *               in order separated by a comma followed by a space.
- * @n: The number to begin counting at.
+ * print_to_98- Print to 98
+ * @n: starting number
+ * Return: prints numbers from n to 98
  */
+
 void print_to_98(int n)
 {
-	if (n >= 98)
-	{
-		while (n > 98)
-			printf("%d, ", n--);
-		printf("%d\n", n);
-	}
+int i;
 
-	else
+	if (n <= 98)
 	{
-		while (n < 98)
-			printf("%d, ", n++);
-		printf("%d\n", n);
+		for (i = n; i < 98; i++)
+		{
+			printf("%i, ", i);
+		}
+	} else
+	{
+		for (i = n; i > 98; i--)
+		{
+			printf("%i, ", i);
+		}
 	}
+	printf("98\n");
 }
-
